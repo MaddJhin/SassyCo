@@ -1,16 +1,13 @@
-.task {
-    margin: 10px 0px;
+body {
+    font-family: 'Kaushan Script', cursive;
 }
 
-.task-input{
-    border: none;
-    border-bottom: 1px solid black;
+.herotron{
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
 }
-
-/* input[type=text] {
-    background-color: #3CBC8D;
-    color: white;
-} */
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: blue;
