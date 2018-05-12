@@ -1,5 +1,21 @@
+html,body {
+    height:100%;
+}
+
 body {
     font-family: 'Kaushan Script', cursive;
+}
+
+.main-wrapper {
+    background: url(images/background-color.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -6.25em;
 }
 
 .herotron{
@@ -7,6 +23,50 @@ body {
     margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: .3rem;
+}
+
+.black, .hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+.display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+.btn, .button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
