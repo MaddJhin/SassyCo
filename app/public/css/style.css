@@ -19,10 +19,17 @@ body {
 }
 
 .herotron{
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
     margin-bottom: 2rem;
-    background-color: #e9ecef;
+    /* background-color: #e9ecef; */
     border-radius: .3rem;
+    
+    max-width: 980px;
+    max-height: 550px;
+    margin: auto;
+    position: relative;
+
+    overflow: hidden;
 }
 
 .black, .hover-black:hover {
